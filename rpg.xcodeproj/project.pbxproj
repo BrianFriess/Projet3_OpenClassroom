@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D346C71225E5238D00171110 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D346C71125E5238D00171110 /* Characters.swift */; };
+		D346C71525E523EC00171110 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = D346C71425E523EC00171110 /* Warrior.swift */; };
+		D346C71825E5255600171110 /* InitCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D346C71725E5255600171110 /* InitCharacter.swift */; };
 		D3542B5525DBE3A700EAC053 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3542B5425DBE3A700EAC053 /* main.swift */; };
+		D35FE04225E7B1840062C7D8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35FE04125E7B1840062C7D8 /* Player.swift */; };
+		D35FE04725E7E6710062C7D8 /* Attack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35FE04625E7E6710062C7D8 /* Attack.swift */; };
+		D35FE04A25E7E6A30062C7D8 /* Heal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35FE04925E7E6A30062C7D8 /* Heal.swift */; };
+		D37FB74425E6774C00AE4987 /* Healer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FB74325E6774C00AE4987 /* Healer.swift */; };
+		D37FB74725E6776200AE4987 /* Wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FB74625E6776200AE4987 /* Wizard.swift */; };
+		D37FB74A25E6777700AE4987 /* Farmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FB74925E6777700AE4987 /* Farmer.swift */; };
+		D37FB74D25E677DC00AE4987 /* Treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FB74C25E677DC00AE4987 /* Treasure.swift */; };
+		D37FB75125E6780100AE4987 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FB75025E6780100AE4987 /* Weapon.swift */; };
+		D37FB75425E6781A00AE4987 /* AllWeapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FB75325E6781A00AE4987 /* AllWeapon.swift */; };
+		D38EA96B25E5518C00BCF4F4 /* LogicGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38EA96A25E5518C00BCF4F4 /* LogicGame.swift */; };
+		D3E4630025F9047A00BACB52 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E462FF25F9047A00BACB52 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +37,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D346C71125E5238D00171110 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		D346C71425E523EC00171110 /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
+		D346C71725E5255600171110 /* InitCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitCharacter.swift; sourceTree = "<group>"; };
 		D3542B5125DBE3A700EAC053 /* rpg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rpg; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3542B5425DBE3A700EAC053 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D35FE04125E7B1840062C7D8 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D35FE04625E7E6710062C7D8 /* Attack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attack.swift; sourceTree = "<group>"; };
+		D35FE04925E7E6A30062C7D8 /* Heal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heal.swift; sourceTree = "<group>"; };
+		D37FB74325E6774C00AE4987 /* Healer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Healer.swift; sourceTree = "<group>"; };
+		D37FB74625E6776200AE4987 /* Wizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wizard.swift; sourceTree = "<group>"; };
+		D37FB74925E6777700AE4987 /* Farmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farmer.swift; sourceTree = "<group>"; };
+		D37FB74C25E677DC00AE4987 /* Treasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treasure.swift; sourceTree = "<group>"; };
+		D37FB75025E6780100AE4987 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		D37FB75325E6781A00AE4987 /* AllWeapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWeapon.swift; sourceTree = "<group>"; };
+		D38EA96A25E5518C00BCF4F4 /* LogicGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicGame.swift; sourceTree = "<group>"; };
+		D3E462FF25F9047A00BACB52 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +66,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D346C71025E5235A00171110 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				D346C71125E5238D00171110 /* Characters.swift */,
+				D37FB74325E6774C00AE4987 /* Healer.swift */,
+				D37FB74625E6776200AE4987 /* Wizard.swift */,
+				D37FB74925E6777700AE4987 /* Farmer.swift */,
+				D346C71425E523EC00171110 /* Warrior.swift */,
+				D35FE04125E7B1840062C7D8 /* Player.swift */,
+				D35FE04625E7E6710062C7D8 /* Attack.swift */,
+				D35FE04925E7E6A30062C7D8 /* Heal.swift */,
+				D37FB75325E6781A00AE4987 /* AllWeapon.swift */,
+				D37FB75025E6780100AE4987 /* Weapon.swift */,
+				D37FB74C25E677DC00AE4987 /* Treasure.swift */,
+				D346C71725E5255600171110 /* InitCharacter.swift */,
+				D38EA96A25E5518C00BCF4F4 /* LogicGame.swift */,
+				D3E462FF25F9047A00BACB52 /* Game.swift */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
 		D3542B4825DBE3A700EAC053 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +106,7 @@
 		D3542B5325DBE3A700EAC053 /* rpg */ = {
 			isa = PBXGroup;
 			children = (
+				D346C71025E5235A00171110 /* class */,
 				D3542B5425DBE3A700EAC053 /* main.swift */,
 			);
 			path = rpg;
@@ -119,7 +169,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D346C71525E523EC00171110 /* Warrior.swift in Sources */,
+				D3E4630025F9047A00BACB52 /* Game.swift in Sources */,
+				D38EA96B25E5518C00BCF4F4 /* LogicGame.swift in Sources */,
+				D37FB74A25E6777700AE4987 /* Farmer.swift in Sources */,
+				D35FE04725E7E6710062C7D8 /* Attack.swift in Sources */,
+				D37FB74D25E677DC00AE4987 /* Treasure.swift in Sources */,
+				D37FB74425E6774C00AE4987 /* Healer.swift in Sources */,
+				D35FE04A25E7E6A30062C7D8 /* Heal.swift in Sources */,
+				D35FE04225E7B1840062C7D8 /* Player.swift in Sources */,
+				D37FB75125E6780100AE4987 /* Weapon.swift in Sources */,
+				D37FB75425E6781A00AE4987 /* AllWeapon.swift in Sources */,
 				D3542B5525DBE3A700EAC053 /* main.swift in Sources */,
+				D346C71825E5255600171110 /* InitCharacter.swift in Sources */,
+				D37FB74725E6776200AE4987 /* Wizard.swift in Sources */,
+				D346C71225E5238D00171110 /* Characters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
